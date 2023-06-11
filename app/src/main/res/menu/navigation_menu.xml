@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Página Principal" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_grey"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/Geolocation"
+            android:icon="@drawable/pin"
+            android:title="Não me apetece cozinhar" />
+
+        <item
+            android:id="@+id/WeeklyPlan"
+            android:icon="@drawable/preparation"
+            android:title="Plano semanal" />
+
+    </group>
+
+
+</menu>
